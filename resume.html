@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Salman, cv, resume">
+    <meta name="description" content="Ttis is my firs resume website">
+    <title>Salman resume</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="info">
+        <img src="GoodShrekImage.webp" alt="Мое фото" class="avatar">
+        
+        <div class="info-text">
+            <h1>Salman Turabov</h1>
+            <p>Hi, my name Salman, I study frontend and I want to be frontend developer. Because I like it.</p> 
+                
+            <p>I like travelling, sports, programming and cartoons about Shrek.</p>
+
+            <div class="card bg-green">
+                <h2>My hobbies</h2>
+                <ol>
+                    <li>Reading</li>
+                    <li>Programming</li>
+                    <li>Learnig English</li>
+                    <li>Sports</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="card bg-red">
+        <h2>Work experience</h2>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Job title</th>
+                    <th>Yers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Geophysics</td>
+                    <td>Electronic engineer</td>
+                    <td>2010 - 2013</td>
+                </tr>
+                <tr>
+                    <td>Private company</td>
+                    <td>Builder</td>
+                    <td>2014 - 2021</td>
+                </tr>
+                <tr>
+                    <td>Freelance</td>
+                    <td>QA & QC</td>
+                    <td>2021 - now</td>
+                </tr>
+            
+            </tbody>
+        </table>
+    </div>
+
+    
+    <h2 class="contacts">My contacts</h2>
+
+    <p>
+        <button>
+            <a href="mailto:Salmanturab@gmail.com" target="_blank">Write to email</a>
+        </button>
+        <button>
+            <a href="tg://resolve?domain=Atlasbx127" target="_blank">Write to Telegram</a>
+        </button>
+        <button>
+            <a href="www.linkedin.com/in/salman-turabov-25206a226" target="_blank">LinkedIn</a>
+        </button>
+    </p>
+
+    <h2>Contact with me</h2>
+    <form action="/">
+        <div>
+            <label for="name">What's your name</label>
+            <br>
+            <input type="text" id="name" placeholder="enter you name">
+        </div>
+
+        <br>
+        <div>
+            <label for="email">Your email</label><br>
+            <input type="email" id="email" placeholder="enter you email">
+        </div>
+
+        <br>
+        <div>
+            <label for="message">Your message</label><br>
+            <textarea name="massage" id="massage" placeholder="enter your message" cols="20" rows="5"></textarea>
+        </div>
+
+        <br>
+        <div>
+            <input class="btn" type="submit" id="send" value="Send">
+        </div>
+    </form>
+</div>    
+</body>
+</html>

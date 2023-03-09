@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0f141e;
+    background: #f1f1f1;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.avatar {
+    width: 200px;
+    /* border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25); */
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 5px;
+}
+
+.contacts {
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.card {
+/* Добавим загругления углам наших элементов */
+    border-radius: 5px;
+/* Добавим внутренние отступы верх - низ 15px, справа - слева 20px */
+    padding: 15px 20px;
+/* Добавим внешний нижний отступ от карточек */
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+
+/* Создаем для каждого фона отдельный класс и мы можем применять его для любого объекта */
+.bg-yellow {
+    background: #fff9dc;
+}
+
+.bg-red {
+    background: #ffe5e5;
+}
+
+.bg-green {
+    background: #e5ffe7;
+}
+
+
+/* Links */
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+  /* color: orange;
+  font-size: 1.05rem; */
+  text-decoration: underline;  
+}
+
+a:visited {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+.btn {
+    border-radius: 5px;
+    background: #111;
+    padding: 15px 20 px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    font-size: 1.05rem;
+}
